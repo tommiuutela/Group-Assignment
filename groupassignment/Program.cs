@@ -15,12 +15,14 @@ namespace groupassignment
             animals.Add("Cat");
             animals.Add("Dog");
             animals.Add("Bird");
+            animals.Add("Elephant");
             Animal Bear = new Animal(true, "Otso", "ROAR!", "Bear doesn't give a F.", "none", 276.5);
             Animal Wolf = new Animal(true, "Fenrir", "HOWL!", "Wolf yawns", "none", 56.2);
             Animal Tiger = new Animal(true, "Chubby", "HISS!", "Tiger sits down.", "none", 96.5);
             Animal Cat = new Animal(true, "Ragnar", "MEOW!", "''purr'' cat came to owner.", "Ahmed Abdullah", 4);
             Animal Dog = new Animal(true, "Bingo", "BARK!", "Dog came to owner.", "Lil Ali", 9);
             Animal Bird = new Animal(true, "Acanthis", "CAW CAW!", "Bird cant understand human.", "Blackbeard", 0.2);
+            Animal Elephant = new Animal(true, "Yawn", "Truut", "Raises both strong legs", "none", 350);
             bool looping = true;
             Console.WriteLine("What do you want to do? [list, quit]");
             string answer = Console.ReadLine();
@@ -43,11 +45,14 @@ namespace groupassignment
                         answer.Equals("TIGER", StringComparison.InvariantCultureIgnoreCase) ||
                         answer.Equals("CAT", StringComparison.InvariantCultureIgnoreCase) ||
                         answer.Equals("DOG", StringComparison.InvariantCultureIgnoreCase) ||
-                        answer.Equals("BIRD", StringComparison.InvariantCultureIgnoreCase))
+                        answer.Equals("BIRD", StringComparison.InvariantCultureIgnoreCase) ||
+                        answer.Equals("ELEPHANT", StringComparison.InvariantCultureIgnoreCase))
+
                     {
                         string currentAnimal = answer;
                         if (currentAnimal.Equals("WOLF", StringComparison.InvariantCultureIgnoreCase) ||
                             currentAnimal.Equals("BEAR", StringComparison.InvariantCultureIgnoreCase) ||
+                            currentAnimal.Equals("ELEPHANT", StringComparison.InvariantCultureIgnoreCase) ||
                             currentAnimal.Equals("TIGER", StringComparison.InvariantCultureIgnoreCase))
                         {
                             start3:
@@ -79,6 +84,11 @@ namespace groupassignment
                                         Tiger.MakeSound();
                                         goto start3;
                                     }
+                                    else if (currentAnimal.Equals("ELEPHANT", StringComparison.InvariantCultureIgnoreCase))
+                                    {
+                                        Elephant.MakeSound();
+                                        goto start3;
+                                    }
                                 }
                                 if (answer.Equals("Hunt", StringComparison.InvariantCultureIgnoreCase))
                                 {
@@ -95,6 +105,11 @@ namespace groupassignment
                                     else if (currentAnimal.Equals("TIGER", StringComparison.InvariantCultureIgnoreCase))
                                     {
                                         Tiger.Hunt();
+                                        goto start3;
+                                    }
+                                    else if (currentAnimal.Equals("ELEPHANT", StringComparison.InvariantCultureIgnoreCase))
+                                    {
+                                        Elephant.Hunt();
                                         goto start3;
                                     }
                                 }
@@ -115,6 +130,11 @@ namespace groupassignment
                                         Tiger.ComeHere();
                                         goto start3;
                                     }
+                                    else if (currentAnimal.Equals("ELEPHANT", StringComparison.InvariantCultureIgnoreCase))
+                                    {
+                                        Elephant.ComeHere();
+                                        goto start3;
+                                    }
                                 }
                                 if (answer.Equals("GiveName", StringComparison.InvariantCultureIgnoreCase))
                                 {
@@ -131,6 +151,11 @@ namespace groupassignment
                                     else if (currentAnimal.Equals("TIGER", StringComparison.InvariantCultureIgnoreCase))
                                     {
                                         Tiger.GiveName();
+                                        goto start3;
+                                    }
+                                    else if (currentAnimal.Equals("ELEPHANT", StringComparison.InvariantCultureIgnoreCase))
+                                    {
+                                        Elephant.GiveName();
                                         goto start3;
                                     }
                                 }

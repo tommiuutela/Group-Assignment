@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tommi\\source\\repos\\groupassignment\\groupassignment\\groupassignment.csproj": {}
+    "C:\\Users\\35845\\Source\\Repos\\Group-Assignment\\groupassignment\\groupassignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tommi\\source\\repos\\groupassignment\\groupassignment\\groupassignment.csproj": {
+    "C:\\Users\\35845\\Source\\Repos\\Group-Assignment\\groupassignment\\groupassignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tommi\\source\\repos\\groupassignment\\groupassignment\\groupassignment.csproj",
+        "projectUniqueName": "C:\\Users\\35845\\Source\\Repos\\Group-Assignment\\groupassignment\\groupassignment.csproj",
         "projectName": "groupassignment",
-        "projectPath": "C:\\Users\\tommi\\source\\repos\\groupassignment\\groupassignment\\groupassignment.csproj",
-        "packagesPath": "C:\\Users\\tommi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tommi\\source\\repos\\groupassignment\\groupassignment\\obj\\",
+        "projectPath": "C:\\Users\\35845\\Source\\Repos\\Group-Assignment\\groupassignment\\groupassignment.csproj",
+        "packagesPath": "C:\\Users\\35845\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\35845\\Source\\Repos\\Group-Assignment\\groupassignment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tommi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\35845\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

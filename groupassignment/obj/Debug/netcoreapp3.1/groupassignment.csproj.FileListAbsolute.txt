@@ -11,3 +11,16 @@ C:\Users\tommi\source\repos\groupassignment\groupassignment\bin\Debug\netcoreapp
 C:\Users\tommi\source\repos\groupassignment\groupassignment\obj\Debug\netcoreapp3.1\groupassignment.dll
 C:\Users\tommi\source\repos\groupassignment\groupassignment\obj\Debug\netcoreapp3.1\groupassignment.pdb
 C:\Users\tommi\source\repos\groupassignment\groupassignment\obj\Debug\netcoreapp3.1\groupassignment.genruntimeconfig.cache
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\bin\Debug\netcoreapp3.1\groupassignment.exe
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\bin\Debug\netcoreapp3.1\groupassignment.deps.json
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\bin\Debug\netcoreapp3.1\groupassignment.runtimeconfig.json
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\bin\Debug\netcoreapp3.1\groupassignment.runtimeconfig.dev.json
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\bin\Debug\netcoreapp3.1\groupassignment.dll
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\bin\Debug\netcoreapp3.1\groupassignment.pdb
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\obj\Debug\netcoreapp3.1\groupassignment.csprojAssemblyReference.cache
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\obj\Debug\netcoreapp3.1\groupassignment.AssemblyInfoInputs.cache
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\obj\Debug\netcoreapp3.1\groupassignment.AssemblyInfo.cs
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\obj\Debug\netcoreapp3.1\groupassignment.csproj.CoreCompileInputs.cache
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\obj\Debug\netcoreapp3.1\groupassignment.dll
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\obj\Debug\netcoreapp3.1\groupassignment.pdb
+C:\Users\35845\Source\Repos\Group-Assignment\groupassignment\obj\Debug\netcoreapp3.1\groupassignment.genruntimeconfig.cache
